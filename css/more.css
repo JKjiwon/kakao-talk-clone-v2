@@ -1,0 +1,54 @@
+/* padding,margin을 적절하게..
+div span box인 경우에는 주로 margin */
+
+/* text 인 경우에는 padding을 주로 쓴다*/
+
+.more .more__btn-list,
+.more .more__suggestions-list {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px;
+  margin-left: 15px;
+}
+
+.more__btn-list .more__btn,
+.more .suggestion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.more__btn .more__btn-title {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.more .more__suggestions {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 25px;
+}
+
+.more .more__title {
+  margin-bottom: 25px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.suggestion .suggestion__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
+  padding: 10px;
+  background-color: #fae100;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suggestion__icon i {
+  font-size: 25px;
+  color: white;
+}

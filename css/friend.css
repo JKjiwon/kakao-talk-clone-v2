@@ -1,0 +1,61 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 38%;
+}
+
+.friend__avatar.g-avatar {
+  /* .friend__avatar .g-avatar 둘다 가진 클래스에 적용됨 */
+  width: 70px;
+}
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend__column .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  /* default : inline */
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  padding: 5px 10px;
+  border: 2px solid #25c34c;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.friend__now-listening span {
+  opacity: 0.6;
+}
+.friend__now-listening i {
+  color: #25c34c;
+  font-size: 12px;
+}

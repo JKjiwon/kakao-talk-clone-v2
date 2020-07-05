@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+/* import typography - google fonts */
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  /* 부모의 색깔을 받아온다  */
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* 테두리와 안쪽 여백의 크기도 요소의 크기로 고려합니다. 
+너비를 100 픽셀로 설정하고 테두리와 안쪽 여백을 추가하면, 
+콘텐츠 영역이 줄어들어 총 너비 100 픽셀을 유지합니다.
+
+패딩을 넣든, 박스 테두리를 굵게 하던, box size는 그대로 유지해줘,
+*/
