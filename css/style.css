@@ -10,6 +10,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 body {
   background-color: white;
@@ -34,3 +35,17 @@ a {
 
 패딩을 넣든, 박스 테두리를 굵게 하던, box size는 그대로 유지해줘,
 */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s ease-out;
+}
