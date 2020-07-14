@@ -99,3 +99,23 @@
   bottom: 0px;
   z-index: 3;
 }
+.frind__name-wrapper .friend__name {
+  margin: 0;
+}
+
+.frind__name-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.frind__name-wrapper .friend__number {
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+.frind__name-wrapper i {
+  opacity: 0.6;
+  margin-left: 4px;
+  font-size: 12px;
+}
