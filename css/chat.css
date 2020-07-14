@@ -146,6 +146,7 @@
   color: white;
   font-weight: 600;
   display: block;
+  line-height: 1.4;
 }
 .message .message__timestamp {
   margin: 0px 10px;
@@ -196,7 +197,7 @@
   animation: sentAnimation 0.5s ease-out forwards;
 }
 
-@keyframes showChatBody {
+/* @keyframes showChatBody {
   from {
     opacity: 0;
     transform: translateY(100%);
@@ -208,4 +209,4 @@
 }
 .chat-body {
   animation: showChatBody 0.3s linear forwards;
-}
+} */

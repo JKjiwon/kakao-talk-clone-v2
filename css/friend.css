@@ -5,15 +5,18 @@
 }
 .friend .friend__avatar {
   width: 50px;
+  height: 50px;
   border-radius: 38%;
 }
 
 .friend__avatar.g-avatar {
   /* .friend__avatar .g-avatar 둘다 가진 클래스에 적용됨 */
   width: 70px;
+  height: 70px;
 }
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 .friend .friend__column {
@@ -33,7 +36,8 @@
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
-.friend .chat__timestamp {
+.friend .chat__timestamp,
+.friend .friend__number {
   opacity: 0.6;
 }
 
@@ -58,4 +62,40 @@
 .friend__now-listening i {
   color: #25c34c;
   font-size: 12px;
+}
+.chats .friend {
+  margin-bottom: 20px;
+}
+
+.group-image {
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.group-image .p-avatar {
+  width: 33px;
+  height: 33px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  border: 2px solid white;
+}
+.p-avatar:nth-child(1) {
+  top: 0px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+.p-avatar:nth-child(2) {
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+.p-avatar:nth-child(3) {
+  right: 0px;
+  bottom: 0px;
+  z-index: 3;
 }
